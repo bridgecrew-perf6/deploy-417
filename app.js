@@ -40,7 +40,12 @@ app.use(
 );
 
 
-app.use('/', index);
+app.use('/api', index);
+app.get('/*', (req, res) => {
+    // res.sendFile(path.join((__dirname, 'build', 'index.html')))
+    res.sendFile('./build/index.html', {root: __dirname})
+
+})
 
 app.listen(PORT, () => {
     console.log('Server start on port ', PORT)
