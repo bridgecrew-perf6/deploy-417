@@ -12,14 +12,12 @@ class PortfolioController {
       } else {
         res.json('Пожалуйста, дополните информацию о себе')
       }
-      // res.sendStatus(200)
     } catch (e) {
       console.log(e);
     }
   }
 
   async createPortfolio(req, res) {
-    console.log(req.body)
     try {
       const { id } = req.params
       const portfolio = await Portfolios.create({ ...req.body, profil_id: Number(id) })

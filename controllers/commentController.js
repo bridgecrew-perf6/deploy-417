@@ -2,10 +2,7 @@ const {Reitings, Barters} = require('../db/models')
 
 class CommentController {
     async createComment(req, res) {
-        console.log('123')
         const {star, comment} = req.body.data
-        console.log(req.body)
-        //barter_id
         try {
             const barter = await Barters.findOne({where: {id: 6}})
             const profil_id = barter.opponent

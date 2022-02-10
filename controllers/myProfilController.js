@@ -31,12 +31,22 @@ class MyProfileController {
     async getProfile(req, res) {
         try {
             const {id} = req.params
-            const profile = await Profils.findOne({where: {user_id: Number(id)}})
-            if (profile) {
-                const starsProfile = await Reitings.findAll({where: {profil_id: profile.id}})
+            const profileOne = await Profils.findOne({where: {user_id: Number(id)}})
+            if (profileOne) {
+                const starsProfile = await Reitings.findAll({where: {profil_id: profileOne.id}})
                 const reiting = starsProfile.reduce((el, acc) => (acc += el.star), 0)
                 const amountDeals = starsProfile.length
-                res.json({profile, reiting, amountDeals})
+                const newRaitind = Math.floor(reiting / amountDeals)
+                console.log(reiting, newRaitind, amountDeals)
+                const profile = {
+                    id: profileOne.id,
+                    img: profileOne.img,
+                    name: profileOne.name,
+                    user_id: profileOne.user_id,
+                    rating: newRaitind,
+                    amountDeals: amountDeals
+                }
+                res.json({profile})
             } else {
                 res.json('\'Пожалуйста, дополните информацию о себе\'')
             }
