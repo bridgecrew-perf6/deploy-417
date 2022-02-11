@@ -11,7 +11,7 @@ const FileStore = require('session-file-store')(session);
 
 const index = require('./routes/index');
 
-// const PORT = process.env.PORT || 3001 // process.env.PORT || 3001
+const PORT = process.env.PORT || 3001 // process.env.PORT || 3001
 const app = express();
 
 
@@ -47,10 +47,10 @@ app.get('/*', (req, res) => {
 
 })
 
-// app.listen(PORT, () => {
-//     console.log('Server start on port ', PORT)
-// })
+app.listen(PORT, () => {
+    console.log('Server start on port ', PORT)
+})
 
 
 
-module.exports = app
+// module.exports = app
