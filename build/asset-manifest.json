@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.675697ee.css",
-    "main.js": "/static/js/main.78cfd1e5.js",
-    "static/media/job_exchange.jpeg": "/static/media/job_exchange.d5c199f2be38e6637d2a.jpeg",
-    "static/media/elecktro_job.jpeg": "/static/media/elecktro_job.068e80fd9d92d0a14d6b.jpeg",
-    "static/media/job_svarka.jpeg": "/static/media/job_svarka.0a4a56ae99dca7a3005c.jpeg",
+    "main.css": "/static/css/main.143dd75b.css",
+    "main.js": "/static/js/main.65680d9b.js",
+    "static/media/pic@3x.png": "/static/media/pic@3x.0de4d4aab493792c3616.png",
+    "static/media/AvenirNextCyr-Regular.eot": "/static/media/AvenirNextCyr-Regular.3ae7af43a22fc7caef32.eot",
+    "static/media/AvenirNextCyr-Regular.ttf": "/static/media/AvenirNextCyr-Regular.d5515aff04ff81140f75.ttf",
+    "static/media/AvenirNextCyr-Regular.woff": "/static/media/AvenirNextCyr-Regular.1f3e188cad9e2dc3259b.woff",
+    "static/media/Frame 48601.png": "/static/media/Frame 48601.6bfa921f45ff74ffedb9.png",
+    "static/media/Logo — копия.svg": "/static/media/Logo — копия.5743605a3f56a8bce7c76ceec34ccf09.svg",
+    "static/media/search.svg": "/static/media/search.47571140cd69b6e61a753c7af911c014.svg",
     "index.html": "/index.html",
-    "main.675697ee.css.map": "/static/css/main.675697ee.css.map",
-    "main.78cfd1e5.js.map": "/static/js/main.78cfd1e5.js.map"
+    "static/media/Vector 704.svg": "/static/media/Vector 704.ed6776c3df7057c296b5c2d7d363efab.svg",
+    "static/media/Vector 701.svg": "/static/media/Vector 701.ae4e4800420277d37b9dfd67ac271555.svg",
+    "static/media/Vector 703.svg": "/static/media/Vector 703.4b8325f809d00809bed8503822df8800.svg",
+    "static/media/Vector 702.svg": "/static/media/Vector 702.a1cf29d402129d33f4950e31aef8db51.svg",
+    "static/media/Vector 699.svg": "/static/media/Vector 699.6be6ce35db67dcfb06f8baaf7c80d5f5.svg",
+    "static/media/Vector 700.svg": "/static/media/Vector 700.78b69d24c02954fcbc399f968137f225.svg",
+    "main.143dd75b.css.map": "/static/css/main.143dd75b.css.map",
+    "main.65680d9b.js.map": "/static/js/main.65680d9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.675697ee.css",
-    "static/js/main.78cfd1e5.js"
+    "static/css/main.143dd75b.css",
+    "static/js/main.65680d9b.js"
   ]
 }
